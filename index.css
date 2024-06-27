@@ -1,0 +1,54 @@
+.structure
+{
+    
+    background-color: black;
+    padding: 30px;
+    margin-top: 150px;
+    border-radius: 150px;
+}
+body{
+display: flex;
+justify-content: center;
+background-color: rgb(152, 152, 181);
+align-items: center;
+margin: 0;
+padding: 0;
+background-size: cover;
+width: 100%;
+background-repeat: repeat-x;
+background-position: center;
+
+animation-name: animation;
+animation-direction: alternate-reverse;
+animation-duration: 10s;
+animation-fill-mode:forwards;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes animation{
+    0%{
+        background-image: url(img/multiple-stoplights-visible-1536x1075.jpg);
+    }
+    30%{
+        background-image: url(img/night-traffic-on-autobahn-night-city-road_vkqxllatl_thumbnail-1080_01.png);
+    }
+    60%{
+        background-image: url(img/R.jpeg);
+    }
+    70%{
+        background-image: url(img/R\ \(1\).jpeg)
+    }
+    100%{
+        background-image: url(img/the-stopper-communication-red-light-cars.jpg);
+    }
+}
+.robot
+{
+width: 150px;
+height: 150px;
+background-color: aliceblue;
+border-radius: 70px;
+margin: 30px;
+}
